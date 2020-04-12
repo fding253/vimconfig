@@ -12,7 +12,8 @@ endif
 """""""""""
 call plug#begin('~/.vim/plugged')
 Plug 'itchyny/lightline.vim'
-Plug 'dracula/vim', { 'as': 'dracula' }
+"Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'sonph/onehalf', {'rtp': 'vim/'}
 call plug#end()
 
 
@@ -35,7 +36,7 @@ set showmatch                "highlight matching brackets
 set number                   "line numbering
 
 syntax on                    "syntax highlighting
-colorscheme dracula " koehler torte
+colorscheme onehalfdark" koehler torte
 
 set laststatus=2
 
