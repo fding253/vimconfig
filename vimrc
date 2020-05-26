@@ -10,10 +10,13 @@ endif
 """""""""""
 " Plugins
 """""""""""
+" Run 'PlugInstall' after adding a new plugin
 call plug#begin('~/.vim/plugged')
 Plug 'itchyny/lightline.vim'
 "Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
+"Plug 'vim-python/python-syntax'
+Plug 'sheerun/vim-polyglot'
 call plug#end()
 
 
